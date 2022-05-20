@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  background: cadetblue;
+}
+.container{
+  width: 60%;
+  margin: 12% auto 0;
+}
+.input-field{
+  text-align: center;
+}
+input{
+  width:30%;
+  height:30px;
+  font-size: 20px;
+  border:none;
+  border-radius: 3px;
+  padding: 20px;
+}
+input:focus{
+  outline: none;
+}
+button{
+  margin-left: 3%;
+  margin-bottom: 6px;
+  width: 6%;
+  height: 29px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+}

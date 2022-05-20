@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Auto complete using Pure Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="input-field">
+            <input type="text" id="inp" list="datalist" onkeyup="autoComplete(this.value)">
+            
+            <datalist id="datalist">
+               
+            </datalist>
+
+            <button id="btn" onclick="hello()">clear</button>
+        </div>
+    </div>
+
+    <script src="demo.js">
+    </script>
+</body>
+</html>
